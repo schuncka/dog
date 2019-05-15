@@ -1,0 +1,44 @@
+header {
+    padding: 2rem;
+    background-color: #00F;
+}
+header .nome {
+    font-size: 3rem;
+    color: #fff;
+}
+header nav {
+    float: right;
+}
+header nav a {
+    margin: 0 1rem;
+    padding: 0.5rem;
+    color: #fff;
+}
+header nav a.selecionado {
+    background-color: #000;
+}
+main {
+
+}
+main section {
+    width: calc(60% - 2rem);
+    float: left;    
+    padding: 1rem;
+    background-color: lightblue;
+    display: none;
+}
+main section.ativa {
+    display: block;
+}
+main aside {
+    width: 40%;
+    float: right;
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: lightpink;
+}
+footer {
+    clear: both;
+    padding: 1rem;
+    background-color: #6FC;
+}
